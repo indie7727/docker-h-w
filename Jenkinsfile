@@ -3,8 +3,8 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    ORG = 'amulobaev-aurea'
-    APP_NAME = 'docker-hello-world'
+    ORG = 'indie7727'
+    APP_NAME = 'docker-h-w'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
   }
   stages {
